@@ -105,10 +105,10 @@ def load_frame2():
     for i in ingredients:
         tk.Label(frame2,
                  text=i,
-                 bg=bg_colour,
+                 bg="#28393a",
                  fg="white",
                  font=("TkMenuFont", 12)
-                 ).pack()
+                 ).pack(fill="both")
 
     # Button widget
     tk.Button(frame2,
